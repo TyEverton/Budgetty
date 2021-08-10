@@ -4,7 +4,8 @@ const session = require('express-session');
 const user = require('./controllers/userCtrl');
 const budget = require('./controllers/budgetCtrl');
 
-const { SERVER_PORT, SESSION_SECRET } = process.env;
+const SERVER_PORT = 4000;
+const SESSION_SECRET = "secret"
 
 const app = express();
 app.use(express.json());

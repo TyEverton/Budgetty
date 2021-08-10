@@ -8,16 +8,18 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
-    "chart.js": "^3.5.0",
+    "chart": "^0.1.2",
+    "chart.js": "^2.9.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
+    "nodemon": "^2.0.12",
     "react": "^17.0.2",
-    "react-chartjs-2": "^3.0.4",
+    "react-chartjs-2": "^2.9.4",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^1.1.5",
     "redux": "^4.1.0",
     "redux-promise-middleware": "^6.1.2",
     "web-vitals": "^1.0.1"
@@ -54,5 +56,16 @@
       "src/*",
       "public/*"
     ]
-  }
+  },
+  "description": "<img src=\"https://s3.amazonaws.com/devmountain/readme-logo.png\" width=\"250\" align=\"right\">",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMountain/budgetty-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMountain/budgetty-redux/issues"
+  },
+  "homepage": "https://github.com/DevMountain/budgetty-redux#readme"
 }
